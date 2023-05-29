@@ -1,0 +1,73 @@
+body{
+    background-color: lightgreen;
+}
+#header{
+    text-align: center;
+}
+#year{
+background-color: aqua;
+width: 33%;
+height: 10vh;
+
+}
+#month{
+    background-color: aqua;
+    width: 31%;
+    height: 10vh;
+    
+}
+#week{
+
+    background-color: aqua;
+    width: 31%;
+    height: 10vh;
+    
+}
+#days{
+    background-color: aqua;
+    
+width: 33%;
+height: 10vh;
+}
+#hour{
+    background-color: aqua;
+width: 31%;
+height: 10vh;
+}
+#min{
+    background-color: aqua;
+width: 31%;
+height: 10vh;
+}
+#sec{
+    background-color: aqua;
+width: 31%;
+height: 2vh;
+padding-bottom: 5%;
+}
+#container{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin-top: 5%;
+
+}
+p{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+input{
+    
+    border-color: blue ;
+    padding: 1% 9% 1% 6%;
+    
+}
+#btn{
+    padding: 1%;
+    border-radius: 30%;
+    background-color: skyblue;
+    border: solid darkmagenta 3px;
+}
